@@ -2,6 +2,28 @@
   "currency": "USD",
   "unit": "per_million_tokens",
   "models": {
+    "claude-fable-5": {
+      "displayName": "Claude Fable 5",
+      "kind": "claude",
+      "tier": "premium",
+      "input": 10.00,
+      "output": 50.00,
+      "cache_write_5m": 12.50,
+      "cache_write_1h": 20.00,
+      "cache_read": 1.00,
+      "source": "https://www.anthropic.com/pricing"
+    },
+    "claude-opus-4-8": {
+      "displayName": "Claude Opus 4.8",
+      "kind": "claude",
+      "tier": "premium",
+      "input": 5.00,
+      "output": 25.00,
+      "cache_write_5m": 6.25,
+      "cache_write_1h": 10.00,
+      "cache_read": 0.50,
+      "source": "https://www.anthropic.com/pricing"
+    },
     "claude-opus-4-7": {
       "displayName": "Claude Opus 4.7",
       "kind": "claude",
